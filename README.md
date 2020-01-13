@@ -9,7 +9,7 @@ A collection of graph classification methods, covering embedding, deep learning,
 
 Relevant graph classification benchmark datasets are available [[here]](https://github.com/shiruipan/graph_datasets).
 
-Similar collections about [community detection](https://github.com/benedekrozemberczki/awesome-community-detection), [classification/regression tree](https://github.com/benedekrozemberczki/awesome-decision-tree-papers) and [gradient boosting](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers) papers with implementations.
+Similar collections about [community detection](https://github.com/benedekrozemberczki/awesome-community-detection), [classification/regression tree](https://github.com/benedekrozemberczki/awesome-decision-tree-papers), [fraud detection](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers), [Monte Carlo tree search](https://github.com/benedekrozemberczki/awesome-monte-carlo-tree-search-papers), and [gradient boosting](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers) papers with implementations.
 
 <p align="center">
   <img width="400" src="atlas.png">
@@ -23,6 +23,12 @@ Similar collections about [community detection](https://github.com/benedekrozemb
 4. [Graph Kernels](#graph-kernels)  
 
 ## Factorization
+
+- **Hierarchical Stochastic Graphlet Embedding for Graph-based Pattern Recognition (Pattern Recognition 2018)**
+  - Anjan Dutta, Pau Riba, Josep Lladós, Alicia Fornés
+  - [[Paper]](https://arxiv.org/abs/1807.02839)
+  - [[Matlab Reference]](https://github.com/priba/hierarchicalSGE)
+  
 - **Learning Graph Representation via Frequent Subgraphs (SDM 2018)**
   - Dang Nguyen, Wei Luo, Tu Dinh Nguyen, Svetha Venkatesh, Dinh Phung
   - [[Paper]](https://epubs.siam.org/doi/10.1137/1.9781611975321.35)
@@ -94,6 +100,41 @@ Similar collections about [community detection](https://github.com/benedekrozemb
 
 ## Deep Learning
 
+- **GSSNN: Graph Smoothing Splines Neural Network (AAAI 2020)**
+  - Shichao Zhu, Lewei Zhou, Shirui Pan, Chuan Zhou, Guiying Yan, Bin Wang 
+  - [[Paper]](https://shiruipan.github.io/publication/aaai-2020-zhu)
+  - [[Python Reference]](https://github.com/CheriseZhu/GSSNN)
+
+- **Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels (NeurIPS 2019)**
+  - Simon S. Du, Kangcheng Hou, Barnabás Póczos, Ruslan Salakhutdinov, Ruosong Wang, Keyulu Xu
+  - [[Paper]](https://arxiv.org/abs/1905.13192)
+  - [[Python Reference]](https://github.com/KangchengHou/gntk)
+
+- **Molecule Property Prediction Based on Spatial Graph Embedding (Journal of Cheminformatics Models 2019)**
+  - Xiaofeng Wang, Zhen Li, Mingjian Jiang, Shuang Wang, Shugang Zhang, Zhiqiang Wei
+  - [[Paper]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00410)
+  - [[Python Reference]](https://github.com/1128bian/C-SGEN)
+
+- **Fast Training of Sparse Graph Neural Networks on Dense Hardware (Arxiv 2019)**
+  - Matej Balog, Bart van Merriënboer, Subhodeep Moitra, Yujia Li, Daniel Tarlow
+  - [[Paper]](https://arxiv.org/abs/1906.11786)
+  - [[Python Reference]](https://github.com/anonymous-authors-iclr2020/fast_training_of_sparse_graph_neural_networks_on_dense_hardware)
+  
+- **Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling (Arxiv 2019)**
+  - Filippo Maria Bianchi, Daniele Grattarola, Lorenzo Livi, Cesare Alippi
+  - [[Paper]](https://arxiv.org/abs/1910.11436)
+  - [[Python Reference]](https://github.com/danielegrattarola/decimation-pooling)
+  
+- **Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification (Arxiv 2019)**
+  - Ting Chen, Song Bian, Yizhou Sun
+  - [[Paper]](https://arxiv.org/abs/1905.04579)
+  - [[Python Reference]](https://github.com/Waterpine/vis_network) 
+
+- **Learning Aligned-Spatial Graph Convolutional Networks for Graph Classification (ECML-PKDD 2019)**
+  - Lu Bai, Yuhang Jiao, Lixin Cui, Edwin R. Hancock
+  - [[Paper]](https://arxiv.org/abs/1904.04238)
+  - [[Python Reference]](https://github.com/baiuoy/ASGCN_ECML-PKDD2019) 
+
 - **Relational Pooling for Graph Representations (ICML 2019)**
   - Ryan L. Murphy, Balasubramaniam Srinivasan, Vinayak Rao, Bruno Ribeiro
   - [[Paper]](https://arxiv.org/abs/1903.02541)
@@ -153,7 +194,17 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - Roei Herzig, Moshiko Raboh, Gal Chechik, Jonathan Berant, Amir Globerson
   - [[Paper]](https://arxiv.org/abs/1802.05451)
   - [[Python Reference]](https://github.com/shikorab/SceneGraph)
-
+  
+- **Fast and Accurate Molecular Property Prediction: Learning Atomic Interactions and Potentials with Neural Networks (The Journal of Physical Chemistry Letters 2018)**
+  - Masashi Tsubaki and Teruyasu Mizoguchi
+  - [[Paper]](https://pubs.acs.org/doi/10.1021/acs.jpclett.8b01837)
+  - [[Python Reference]](https://github.com/masashitsubaki/molecularGNN_3Dstructure)
+  
+- **Machine Learning for Organic Cage Property Prediction (Chemical Matters 2018)**
+  - Lukas Turcani, Rebecca Greenway, Kim Jelfs
+  - [[Paper]](https://pubs.acs.org/doi/10.1021/acs.chemmater.8b03572)
+  - [[Python Reference]](https://github.com/qyuan7/Graph_Convolutional_Network_for_cages)
+  
 - **Three-Dimensionally Embedded Graph Convolutional Network for Molecule Interpretation (Arxiv 2018)**
   - Hyeoncheol Cho and Insung. S. Choi
   - [[Paper]](https://arxiv.org/abs/1811.09794)
@@ -199,7 +250,7 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - [[Paper]](https://arxiv.org/abs/1805.10988)
   - [[Python Reference]](https://github.com/SeongokRyu/Molecular-GAT)
 
-- **Compound-protein Interaction Prediction with End-to-end Learning of Neural Networks for Graphs and Sequences (Bioinformatics 2018)**
+- **Compound-Protein Interaction Prediction with End-to-end Learning of Neural Networks for Graphs and Sequences (Bioinformatics 2018)**
   - Masashi Tsubaki, Kentaro Tomii, and Jun Sese
   - [[Paper]](https://academic.oup.com/bioinformatics/article/35/2/309/5050020)
   - [[Python Reference]](https://github.com/masashitsubaki/CPI_prediction)
@@ -270,7 +321,7 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - [[Paper]](https://arxiv.org/pdf/1705.07664v2.pdf)
   - [[Python Reference]](https://github.com/fmonti/CayleyNet)
 
-- **Semi-supervised Learning of Hierarchical Representations of Molecules Using Neural Message Passing (2017)**
+- **Semi-Supervised Learning of Hierarchical Representations of Molecules Using Neural Message Passing (2017)**
   - Hai Nguyen, Shin-ichi Maeda, Kenta Oono
   - [[Paper]](https://arxiv.org/pdf/1711.10168.pdf)
   - [[Python Reference]](https://github.com/pfnet-research/hierarchical-molecular-learning)
@@ -306,6 +357,12 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - [[Python Reference]](https://github.com/debbiemarkslab/neural-fingerprint-theano)
 
 ## Graph Kernels
+
+- **A Persistent Weisfeiler–Lehman Procedure for Graph Classification (ICML 2019)**
+  - Sebastian Rieck, Christian Bock, and Karsten Borgwardt
+  - [[Paper]](http://proceedings.mlr.press/v97/rieck19a/rieck19a.pdf)
+  - [[Python Reference]](https://github.com/BorgwardtLab/P-WL)
+
 - **Message Passing Graph Kernels (2018)**
   - Giannis Nikolentzos, Michalis Vazirgiannis
   - [[Paper]](https://arxiv.org/pdf/1808.02510.pdf)
@@ -349,6 +406,15 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - Mahito Sugiyama and Karsten M. Borgward
   - [[Paper]](https://pdfs.semanticscholar.org/79ba/8bcfbf9496834fdc22a1f7c96d26d776cd6c.pdf)
   - [[C++ Reference]](https://github.com/BorgwardtLab/graph-kernels)
+  
+- **A Graph Kernel Based on the Jensen-Shannon Representation Alignment (IJCAI 2015)**
+  - Lu Bai, Zhihong Zhang, Chaoyan Wang, Xiao Bai, Edwin R. Hancock
+  - [[Paper]](http://ijcai.org/Proceedings/15/Papers/468.pdf)
+  - [[Matlab reference]](https://github.com/baiuoy/Matlab-code-JS-alignment-kernel-IJCAI-2015)
+
+- **An Aligned Subtree Kernel for Weighted Graphs (ICML 2015)**
+  - Lu Bai, Luca Rossi, Zhihong Zhang, Edwin R. Hancock
+  - [[Paper]](http://proceedings.mlr.press/v37/bai15.pdf)
 
 - **Scalable Kernels for Graphs with Continuous Attributes (NIPS 2013)**
   - Aasa Feragen, Niklas Kasenburg, Jens Petersen, Marleen de Bruijne and Karsten Borgwardt
@@ -370,12 +436,22 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - [[Python Reference]](https://github.com/jajupmochi/py-graph)
   - [[Python Reference]](https://github.com/deeplego/wl-graph-kernels)
   - [[C++ Reference]](https://github.com/BorgwardtLab/graph-kernels)  
+  
+- **Two New Graphs Kernels in Chemoinformatics (Pattern Recognition Letters 2012)**
+  - Benoit Gaüzère, LucBrun, and Didier Villemin
+  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S016786551200102X)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
 
 - **Fast Neighborhood Subgraph Pairwise Distance Kernel (ICML 2010)**
   - Fabrizio Costa and Kurt De Grave
   - [[Paper]](https://icml.cc/Conferences/2010/papers/347.pdf)
   - [[C++ Reference]](www.bioinf.uni-freiburg.de/~costa/EDeNcpp.tgz)
   - [[Python Reference]](https://github.com/fabriziocosta/EDeN)
+  
+- **Graph Kernels (JMLR 2010)**
+  - S.V.N. Vishwanathan, Nicol N. Schraudolph, Risi Kondor, Karsten M. Borgwardt;
+  - [[Paper]](http://www.jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
 
 - **A Linear-time Graph Kernel (ICDM 2009)**
   - Shohei Hido and Hisashi Kashima
@@ -388,6 +464,11 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - [[Python Reference]](https://github.com/jajupmochi/py-graph)
   - [[Python Reference]](https://github.com/deeplego/wl-graph-kernels)
   - [[C++ Reference]](https://github.com/BorgwardtLab/graph-kernels)
+  
+- **Kernel on Bag of Paths For Measuring Similarity of Shapes (InESANN 2007)**
+  - Frederic Suard, Alain Rakotomamonjy, and Abdelaziz Bensrhair
+  - [[Paper]](https://pdfs.semanticscholar.org/149a/858889e8c3a54ee55b21511a7f56f5e9650b.pdf)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
 
 - **Fast Computation of Graph Kernels (NIPS 2006)**
   - S. V. N. Vishwanathan, Karsten M. Borgwardt, and Nicol N. Schraudolph
@@ -399,6 +480,11 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - Karsten M. Borgwardt and Hans-Peter Kriegel
   - [[Paper]](https://www.ethz.ch/content/dam/ethz/special-interest/bsse/borgwardt-lab/documents/papers/BorKri05.pdf)
   - [[C++ Reference]](https://github.com/KitwareMedical/ITKTubeTK)
+  
+- **Graph Kernels for Chemical Informatics (Neural Networks 2005)**
+  - Liva Ralaivola, Sanjay J Swamidass, Hiroto Saigo, and Pierre Baldi
+  - [[Paper]](https://www.sciencedirect.com/science/article/pii/S0893608005001693)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
 
 - **Cyclic Pattern Kernels For Predictive Graph Mining (KDD 2004)**
   - Tamás Horváth, Thomas Gärtner, and Stefan Wrobel
@@ -409,8 +495,19 @@ Similar collections about [community detection](https://github.com/benedekrozemb
   - Pierre Mahe, Nobuhisa Ueda, Tatsuya Akutsu, Jean-Luc Perret, and Jean-Philippe Vert
   - [[Paper]](http://members.cbio.mines-paristech.fr/~jvert/publi/04icml/icmlMod.pdf)
   - [[Python Reference]](https://github.com/jajupmochi/py-graph)
+  
+- **Extensions of Marginalized Graph Kernels (ICML 2004)**
+  - Pierre Mahe , Nobuhisa Ueda , Tatsuya Akutsu , Jean-Luc Perret , Jean-Philippe Vert
+  - [[Paper]](http://members.cbio.mines-paristech.fr/~jvert/publi/04icml/icmlMod.pdf)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
 
 - **Marginalized Kernels Between Labeled Graphs (ICML 2003)**
   - Hisashi Kashima, Koji Tsuda, and Akihiro Inokuchi
   - [[Paper]](https://pdfs.semanticscholar.org/2dfd/92c808487049ab4c9b45db77e9055b9da5a2.pdf)
   - [[Python Reference]](https://github.com/jajupmochi/py-graph)
+  
+- **On Graph Kernels: Hardness Results and Efficient Alternatives (Learning Theory and Kernel Machines 2003)**
+  - Thomas Gärtner, Peter Flach, and Stefan Wrobel
+  - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.8681&rep=rep1&type=pdf)
+  - [[Python Reference]](https://github.com/jajupmochi/py-graph)
+
